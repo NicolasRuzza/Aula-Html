@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css" rel="folha de estilo">
+
+    <script src="./index.js"></script>
+    
+    <title>Pêniscilina</title>
+</head>
+<body>
+    <h1>Tags Estruturais</h1>
+    <header id="headerid">
+        <h1>Aqui há macaco</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="a">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="a">Contato</a>
+                </li>
+                <li>
+                    <a href="a">Página Inicial</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <button onclick="showPopUp()">Desejas vislumbrar o <b>macaco</b> ???</button>
+
+    <section>
+        <h2>Sobre</h2>
+        <p>Esta é a sessão sobre do meu site</p>
+    </section>
+
+    <article>
+        <h2>Post</h2>
+        <p>Curti vosso site maninho! Tá muitu bunitu...</p>
+    </article>
+
+    <aside>
+        <h3>
+            Anúncios
+        </h3>
+        <p>Confira a última matéria sobre macaco feita por mim!</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 - Monkey Ltda.</p>
+    </footer>
+
+    <h1>Tags de Componente</h1>
+    <h2>Tags de Componente</h2>
+    <h3>Tags de Componente</h3>
+    <h4>Tags de Componente</h4>
+    <h5>Tags de Componente</h5>
+    <h6>Tags de Componente</h6>
+
+    <p>paragrafo paragrafo paragrafo paragrafo paragrafo paragrafo paragrafo paragrafo </p>
+
+    <a href="#headerid">Óia o Header meu fi</a>
+
+    </br>
+
+    <!-- BOTAR LINK. Target é para indicar aonde que deve abrir -->
+    <a href="https://pt.wikipedia.org/wiki/Macaco" target="_blank">Watch Plus Monki</a>
+
+    </br>
+
+    <!-- BOTAR IMAGEM. O alt aparece quando a imagem buga -->
+    <img src="./img/macaco_cigarro_sadvibes.jpg" alt="image macaco"></a>
+
+    </br>
+
+    <!-- PARA PODER DAR PLAY NOS VIDEOS. Sem o 'controls', é basicamente uma imagem -->
+    <video src="./video/Life Could Be A Dream.mp4" controls></video>
+
+    <!-- PARA PODER DAR PLAY NOS ÁUDIOS. Sem o 'controls' nem aparecece (áudio de fundo ?) -->
+    <audio src="./audio/videoplayback.m4a" controls></audio>
+
+    <!-- LISTA DESORDENADA -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- LISTA ORDENADA -->
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <ol type="A"> 
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- TABELA -->
+    <table border="1"> 
+        <thead>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+            <th>Coluna 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Valor 1</td>
+                <td>Valor 2</td>
+                <td>Valor 3</td>
+            </tr>
+            <tr>
+                <td>Valor 1</td>
+                <td>Valor 2</td>
+                <td>Valor 3</td>
+            </tr>
+            <tr>
+                <td>Valor 1</td>
+                <td>Valor 2</td>
+                <td>Valor 3</td>
+            </tr>
+            <tr>
+                <td>Valor 1</td>
+                <td>Valor 2</td>
+                <td>Valor 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- SÓ SEPARA -->
+    <div>
+        <!-- PARÁGRAFO -->
+        <p> 
+            Dentro da div. 
+            <!-- MUDAR APENAS UM PEDAÇO DO TEXTO -->
+            <span style="color: green;">VERMELHO</span> 
+            <span style="color: blue;">AMARELO</span> 
+            <span style="color: red">AZUL</span></p>
+    </div>
+
+    <!-- INSERIR SITES NO SEU SITE. Via link ou digitando outro site mesmo -->
+    <!-- <iframe src="https://anchieta.instructure.com/login/canvas"></iframe> -->
+
+    </br></br>
+    <label for="exemploInput_text">Meu textinho</label>
+    <input type="text" id="exemploInput_text" />
+
+    </br></br>
+    <label for="exemploInput_button">Butão</label>
+    <input type="button" id="exemploInput_button" value="butão"/>
+
+    </br></br>
+    <label for="exemploInput_checkbox">Checkbox</label>
+    <input type="checkbox" id="exemploInput_checkbox" />
+
+    </br></br>
+    <label for="exemploInput_color">Color Picker</label>
+    <input type="color" id="exemploInput_color" />
+
+    </br></br>
+    <label for="exemploInput_file">Pega Arquivo</label>
+    <input type="file" id="exemploInput_file" />
+
+    </br></br>
+    <button>Botão 2</button>
+
+    </br></br>
+    <select>
+        <option value="">---</option>
+        <optgroup label="Opções Legais">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </optgroup>
+        <optgroup label="Opções Chatas">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </optgroup>
+    </select>
+
+    </br></br>
+    <input list="myDatalist" />
+    <datalist id="myDatalist">
+        <option value="Pindamonhangaba">
+        <option value="Itapimirim">
+        <option value="Pirassununga">
+        <option value="Pintópolis">
+    </datalist>
+
+    </br></br>
+    <textarea rows="10" cols="30">Digite meu fi</textarea>
+
+    <hr>
+    </br>
+    <h1>Formulário</h1>
+    <form method="post" action="./meuArquivoQueVaiSalvar">
+        <label for="inpNome">Nome:</label>
+        <input type="text" id="inpNome" /></br>
+
+        <label for="inpAniversario">Aniversário:</label>
+        <input type="data" id="inpAniversario" /></br></br>
+
+        <input type="submit" value="enviar" />
+    </form>
+</body>
+</html>
